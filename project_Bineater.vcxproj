@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{D01F6E4C-0226-4977-AD26-91B570C3B375}</ProjectGuid>
+    <RootNamespace>projectBineater</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bineater.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\images_soures\back.jpg" />
+    <Image Include="..\images_soures\blue_2_d.png" />
+    <Image Include="..\images_soures\blue_2_l.png" />
+    <Image Include="..\images_soures\blue_2_r.png" />
+    <Image Include="..\images_soures\blue_2_u.png" />
+    <Image Include="..\images_soures\blue_d.png" />
+    <Image Include="..\images_soures\blue_l.png" />
+    <Image Include="..\images_soures\blue_r.png" />
+    <Image Include="..\images_soures\blue_u.png" />
+    <Image Include="..\images_soures\gameover.jpg" />
+    <Image Include="..\images_soures\green_2_d.png" />
+    <Image Include="..\images_soures\green_2_l.png" />
+    <Image Include="..\images_soures\green_2_r.png" />
+    <Image Include="..\images_soures\green_2_u.png" />
+    <Image Include="..\images_soures\green_d.png" />
+    <Image Include="..\images_soures\green_l.png" />
+    <Image Include="..\images_soures\green_r.png" />
+    <Image Include="..\images_soures\green_u.png" />
+    <Image Include="..\images_soures\Home.png" />
+    <Image Include="..\images_soures\man_1_d.png" />
+    <Image Include="..\images_soures\man_1_l.png" />
+    <Image Include="..\images_soures\man_1_r.png" />
+    <Image Include="..\images_soures\man_1_u.png" />
+    <Image Include="..\images_soures\man_2_d.png" />
+    <Image Include="..\images_soures\man_2_l.png" />
+    <Image Include="..\images_soures\man_2_r.png" />
+    <Image Include="..\images_soures\man_2_u.png" />
+    <Image Include="..\images_soures\man_3_d.png" />
+    <Image Include="..\images_soures\man_3_l.png" />
+    <Image Include="..\images_soures\man_3_r.png" />
+    <Image Include="..\images_soures\man_3_u.png" />
+    <Image Include="..\images_soures\man_4_d.png" />
+    <Image Include="..\images_soures\man_4_l.png" />
+    <Image Include="..\images_soures\man_4_r.png" />
+    <Image Include="..\images_soures\man_4_u.png" />
+    <Image Include="..\images_soures\man_C_l.png" />
+    <Image Include="..\images_soures\man_C_r.png" />
+    <Image Include="..\images_soures\man_O_l.png" />
+    <Image Include="..\images_soures\man_O_r.png" />
+    <Image Include="..\images_soures\pac.png" />
+    <Image Include="..\images_soures\red_2_d.png" />
+    <Image Include="..\images_soures\red_2_l.png" />
+    <Image Include="..\images_soures\red_2_r.png" />
+    <Image Include="..\images_soures\red_2_u.png" />
+    <Image Include="..\images_soures\red_d.png" />
+    <Image Include="..\images_soures\red_l.png" />
+    <Image Include="..\images_soures\red_r.png" />
+    <Image Include="..\images_soures\red_u.png" />
+    <Image Include="..\images_soures\star.jpg" />
+    <Image Include="..\images_soures\success.jpg" />
+    <Image Include="..\images_soures\timg.jpg" />
+    <Image Include="..\images_soures\transfer.png" />
+    <Image Include="..\images_soures\Wall_1.png" />
+    <Image Include="..\images_soures\Wall_2.png" />
+    <Image Include="..\images_soures\wh_2_d.png" />
+    <Image Include="..\images_soures\wh_2_l.png" />
+    <Image Include="..\images_soures\wh_2_r.png" />
+    <Image Include="..\images_soures\wh_2_u.png" />
+    <Image Include="..\images_soures\wh_d.png" />
+    <Image Include="..\images_soures\wh_l.png" />
+    <Image Include="..\images_soures\wh_r.png" />
+    <Image Include="..\images_soures\wh_u.png" />
+    <Image Include="Home.png" />
+    <Image Include="man_1_d.png" />
+    <Image Include="man_1_l.png" />
+    <Image Include="man_1_r.png" />
+    <Image Include="man_1_u.png" />
+    <Image Include="man_2_d.png" />
+    <Image Include="man_2_l.png" />
+    <Image Include="man_2_r.png" />
+    <Image Include="man_2_u.png" />
+    <Image Include="man_3_d.png" />
+    <Image Include="man_3_l.png" />
+    <Image Include="man_3_r.png" />
+    <Image Include="man_3_u.png" />
+    <Image Include="man_4_d.png" />
+    <Image Include="man_4_l.png" />
+    <Image Include="man_4_r.png" />
+    <Image Include="man_4_u.png" />
+    <Image Include="red_2_d.png" />
+    <Image Include="red_2_l.png" />
+    <Image Include="red_2_r.png" />
+    <Image Include="red_2_u.png" />
+    <Image Include="red_d.png" />
+    <Image Include="red_l.png" />
+    <Image Include="red_r.png" />
+    <Image Include="red_u.png" />
+    <Image Include="star.jpg" />
+    <Image Include="swall_1.png" />
+    <Image Include="swall_2.png" />
+    <Image Include="transfer.png" />
+    <Image Include="Wall_1.png" />
+    <Image Include="Wall_2.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

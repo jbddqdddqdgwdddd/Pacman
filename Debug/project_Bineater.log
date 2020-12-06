@@ -1,0 +1,6 @@
+﻿  Bineater.cpp
+D:\实验报告\project_Bineater\Bineater.cpp(134,29): warning C4002:  类函数宏的调用“_T”参数过多
+D:\实验报告\project_Bineater\Bineater.cpp(135,29): warning C4002:  类函数宏的调用“_T”参数过多
+D:\实验报告\project_Bineater\Bineater.cpp(136,29): warning C4002:  类函数宏的调用“_T”参数过多
+D:\实验报告\project_Bineater\Bineater.cpp(138,29): warning C4002:  类函数宏的调用“_T”参数过多
+  project_Bineater.vcxproj -> D:\实验报告\project_Bineater\Debug\project_Bineater.exe
